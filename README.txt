@@ -1,4 +1,5 @@
-## mini-cms
+# mini-cms
+
 Mini CMS is a simple CMS project, that allows you to manage a simple website.
 Just add the arrays to your website and edit the texts from the administrator panel.
 The first time, you should setup the database and accsess the panel.
