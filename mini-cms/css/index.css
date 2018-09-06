@@ -1,0 +1,51 @@
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.tours-items-container{
+    padding: 10px;
+    margin: auto;   
+}
+.tour-item{
+    background-color: #ccc;
+    overflow: hidden;    
+}
+.tour-img{   
+    width:100%;
+}
+.tour-description{
+    text-align: justify; 
+    font-size:12px;
+    height: 100px;
+    overflow: hidden;
+}
+.tour-details{   
+    background-color: #91e5b6;
+}
+.tour-details-title{
+    width:60%; 
+    float:left;
+}
+.tour-details-value{
+    width:40%; 
+    float:left;
+}
+.logo-top {
+    padding: 6px;   
+}
+@media only screen and (min-width: 500px) {
+    .tours-items-container{   
+    }
+}
+.tour_details_modal {
+    width : 100%;
+    height : 100%;
+    min-width : 200px;
+}
+#alerts{
+    color: red;
+    font-size: 75%;
+}
+.input_error{
+    border: 1px solid red;
+}
