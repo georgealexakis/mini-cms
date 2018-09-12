@@ -9,19 +9,19 @@ The first time, you should setup the database and accsess the panel.
 2. Create database with mini-cms and insert tables and data from mini-cms.sql
 3. Modify default server information drom mini-cms/db_information.php
 
-$servername = "localhost";
-$dbadmin_name = "root";
-$dbadmin_password = "";
-$dbname = "mini-cms";
+`$servername = "localhost";`
+`$dbadmin_name = "root";`
+`$dbadmin_password = "";`
+`$dbname = "mini-cms";`
 
 4. Add the following php code at the top of your website files
 
-<?php
-include('mini-cms/db_information.php');
-include('mini-cms/login.php');
-include('mini-cms/retrieve-photos.php');
-include('mini-cms/retrieve-texts.php');
-?>
+`<?php
+`include('mini-cms/db_information.php');`
+`include('mini-cms/login.php');`
+`include('mini-cms/retrieve-photos.php');`
+`include('mini-cms/retrieve-texts.php');`
+`?>`
 
 5. Add <?php echo $text[i]; ?> for website texts (1<=i<=20)
 6. Add <?php echo $url[i]; ?> for image url, <?php echo $category[i]; ?> for image category and <?php echo $name[i]; ?> for image name (1<=i<=6)
