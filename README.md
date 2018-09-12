@@ -26,4 +26,5 @@ include('mini-cms/retrieve-texts.php');
 5. Add <?php echo $text[i]; ?> for website texts (1<=i<=20)
 6. Add <?php echo $url[i]; ?> for image url, <?php echo $category[i]; ?> for image category and <?php echo $name[i]; ?> for image name (1<=i<=6)
 7. Go to /mc-login.php to login with default credentials username: example@gmail.com and password:1234
+
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
