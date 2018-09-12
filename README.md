@@ -10,17 +10,25 @@ The first time, you should setup the database and accsess the panel.
 3. Modify default server information drom mini-cms/db_information.php
 
 `$servername = "localhost";`
+
 `$dbadmin_name = "root";`
+
 `$dbadmin_password = "";`
+
 `$dbname = "mini-cms";`
 
 4. Add the following php code at the top of your website files
 
-`<?php
+`<?php`
+
 `include('mini-cms/db_information.php');`
+
 `include('mini-cms/login.php');`
+
 `include('mini-cms/retrieve-photos.php');`
+
 `include('mini-cms/retrieve-texts.php');`
+
 `?>`
 
 5. Add <?php echo $text[i]; ?> for website texts (1<=i<=20)
