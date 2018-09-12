@@ -4,7 +4,7 @@ Mini CMS is a simple CMS project, that allows you to manage a simple website.
 Just add the arrays to your website and edit the texts from the administrator panel.
 The first time, you should setup the database and accsess the panel.
 
-Step by step
+# Installion Process
 1. Copy and paste mini-cms files to the root folder (mini-cms folder, img folder, mc-login.php file)
 2. Create database with mini-cms and insert tables and data from mini-cms.sql
 3. Modify default server information drom mini-cms/db_information.php
