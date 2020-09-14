@@ -7,7 +7,7 @@ Firstly, you should setup the database and accsess the panel.
 ## Installation
 
 1. Copy and paste mini-cms files to the root folder (mini-cms folder, img folder, mc-login.php file).
-2. Create database with mini-cms and insert tables and data from mini-cms.sql.
+2. Create database with mini-cms and insert tables and data from [mini-cms.sql](https://github.com/georgealexakis/mini-cms/blob/master/mini-cms.sql) file.
 3. Modify default server information from [db_information.php](https://github.com/georgealexakis/mini-cms/blob/master/mini-cms/db_information.php) file.
 
 ```
